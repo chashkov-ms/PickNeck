@@ -1,0 +1,73 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="226" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="libraries/button/button_action.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="PicNeck_v2" radix="16" sizeText="sizeof spi_rx_buf" addressText="r3"/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="PicNeck_v2" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="PicNeck_v2" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="PicNeck_v2" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="PicNeck_v2"/>
+  <ProjectSessionItem path="PicNeck_v2;PicNeck_v2"/>
+  <ProjectSessionItem path="PicNeck_v2;PicNeck_v2;Application"/>
+  <ProjectSessionItem path="PicNeck_v2;PicNeck_v2;Libraries"/>
+  <ProjectSessionItem path="PicNeck_v2;PicNeck_v2;nRF_BLE_Services"/>
+  <ProjectSessionItem path="PicNeck_v2;PicNeck_v2;nRF_Log"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal;SPIM0/TASKS_START;SPIM0/TASKS_STOP;SPIM0/TASKS_SUSPEND;SPIM0/TASKS_RESUME;SPIM0/EVENTS_STOPPED;SPIM0/EVENTS_ENDRX;SPIM0/EVENTS_END;SPIM0/EVENTS_ENDTX;SPIM0/EVENTS_STARTED;SPIM0/SHORTS;SPIM0/INTENSET;SPIM0/INTENCLR;SPIM0/ENABLE;SPIM0/FREQUENCY;SPIM0/CONFIG;SPIM0/ORC;SPIM0/PSEL.SCK;SPIM0/PSEL.MOSI;SPIM0/PSEL.MISO;SPIM0/RXD.PTR;SPIM0/RXD.MAXCNT;SPIM0/RXD.AMOUNT;SPIM0/RXD.LIST;SPIM0/TXD.PTR;SPIM0/TXD.MAXCNT;SPIM0/TXD.AMOUNT;SPIM0/TXD.LIST;SPIM1/TASKS_START;SPIM1/TASKS_STOP;SPIM1/TASKS_SUSPEND;SPIM1/TASKS_RESUME;SPIM1/EVENTS_STOPPED;SPIM1/EVENTS_ENDRX;SPIM1/EVENTS_END;SPIM1/EVENTS_ENDTX;SPIM1/EVENTS_STARTED;SPIM1/SHORTS;SPIM1/INTENSET;SPIM1/INTENCLR;SPIM1/ENABLE;SPIM1/FREQUENCY;SPIM1/CONFIG;SPIM1/ORC;SPIM1/PSEL.SCK;SPIM1/PSEL.MOSI;SPIM1/PSEL.MISO;SPIM1/RXD.PTR;SPIM1/RXD.MAXCNT;SPIM1/RXD.AMOUNT;SPIM1/RXD.LIST;SPIM1/TXD.PTR;SPIM1/TXD.MAXCNT;SPIM1/TXD.AMOUNT;SPIM1/TXD.LIST" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context/apsr;SPIM1" name="PicNeck_v2" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="PicNeck_v2" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="PicNeck_v2" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="PicNeck_v2" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never">
+   <Watchpoint expression="bsp_board_pin_to_button_idx" name="bsp_board_pin_to_button_idx" radix="16" linenumber="122" filename="libraries/bsp/bsp.c"/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="198" useTextEdit="1" openedFrom="C:/Users/Mavrinsky/Documents/Projects/Picneck_v2/Firmware/libraries/tim/rtc.c" useBinaryEdit="0" left="0" path="main.c" selected="1" top="173" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="59" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="libraries/uart/uart.c" selected="0" top="43" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="48" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="config/pin_config.h" selected="0" top="26" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="69" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="modules/libraries/log/src/nrf_log_default_backends.c" selected="0" top="47" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="175" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="modules/libraries/uart/app_uart.h" selected="0" top="161" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="67" useTextEdit="1" openedFrom="C:/Users/Mavrinsky/Documents/Projects/Picneck_v2/Firmware/main.c" useBinaryEdit="0" left="0" path="modules/libraries/log/nrf_log_default_backends.h" selected="0" top="56" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="PicNeck_v2" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/Mavrinsky/Documents/Projects/Picneck_v2/Firmware/libraries/spi" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

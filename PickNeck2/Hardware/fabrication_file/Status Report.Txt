@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [PickNeck.PrjPcb]
+   Generated File[Bill of Materials-PickNeck.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:18:45 On 02.09.2020

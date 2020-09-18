@@ -1,0 +1,27 @@
+var struct_n_r_f___l_p_c_o_m_p___type =
+[
+    [ "ANADETECT", "struct_n_r_f___l_p_c_o_m_p___type.html#a9de41617c8f8546630bbf36f0b656425", null ],
+    [ "ENABLE", "struct_n_r_f___l_p_c_o_m_p___type.html#a03de39e0d1aa64ab0e5bc6002c75eb25", null ],
+    [ "EVENTS_CROSS", "struct_n_r_f___l_p_c_o_m_p___type.html#a6f639413333da31c98fb793a6972372d", null ],
+    [ "EVENTS_DOWN", "struct_n_r_f___l_p_c_o_m_p___type.html#aedcc55faca8b00f97dc7d2b0058e3197", null ],
+    [ "EVENTS_READY", "struct_n_r_f___l_p_c_o_m_p___type.html#a41bdc09c3538b4252144ba7cbbfe8f47", null ],
+    [ "EVENTS_UP", "struct_n_r_f___l_p_c_o_m_p___type.html#adab0271a76e6e9562905f5ba5dffdb5a", null ],
+    [ "EXTREFSEL", "struct_n_r_f___l_p_c_o_m_p___type.html#aa84671b69ad2b54a8b7b6b6a7ccce25f", null ],
+    [ "HYST", "struct_n_r_f___l_p_c_o_m_p___type.html#a934c819a57f918e68957a2e9081ae97d", null ],
+    [ "INTENCLR", "struct_n_r_f___l_p_c_o_m_p___type.html#a8f12643a785d31f523e751f741017a54", null ],
+    [ "INTENSET", "struct_n_r_f___l_p_c_o_m_p___type.html#a7761b047059f50f46f26f9aec283d44b", null ],
+    [ "PSEL", "struct_n_r_f___l_p_c_o_m_p___type.html#a4848b6d54c94dd46c693ccd9816d28a8", null ],
+    [ "REFSEL", "struct_n_r_f___l_p_c_o_m_p___type.html#a6b6647594af6105b062309da9c02bde7", null ],
+    [ "RESERVED", "struct_n_r_f___l_p_c_o_m_p___type.html#ae67fe4b6acb8712fe99baf362ce888f7", null ],
+    [ "RESERVED1", "struct_n_r_f___l_p_c_o_m_p___type.html#aaf50856f99577beec86c7e6f2b72fa3f", null ],
+    [ "RESERVED2", "struct_n_r_f___l_p_c_o_m_p___type.html#a25ab2686110e02b62d7f61b0aa42b0a0", null ],
+    [ "RESERVED3", "struct_n_r_f___l_p_c_o_m_p___type.html#af33c95ba6133d665b1a44f6c243201b9", null ],
+    [ "RESERVED4", "struct_n_r_f___l_p_c_o_m_p___type.html#a5e056ae308d567c8256db887674ea811", null ],
+    [ "RESERVED5", "struct_n_r_f___l_p_c_o_m_p___type.html#a5dd7a3a89bfdb9f1fdb9e41af4c217db", null ],
+    [ "RESERVED6", "struct_n_r_f___l_p_c_o_m_p___type.html#ac3263acd22e4570ee68282b30d9ba51c", null ],
+    [ "RESULT", "struct_n_r_f___l_p_c_o_m_p___type.html#a3334a37db7d6b609a9b08230460a0765", null ],
+    [ "SHORTS", "struct_n_r_f___l_p_c_o_m_p___type.html#a0c7ae43b312bc6386a9685411b807643", null ],
+    [ "TASKS_SAMPLE", "struct_n_r_f___l_p_c_o_m_p___type.html#ae59b0bc9f4f53703436a4175e4dd0879", null ],
+    [ "TASKS_START", "struct_n_r_f___l_p_c_o_m_p___type.html#af92722cb699a80c434c8eaf10d921b22", null ],
+    [ "TASKS_STOP", "struct_n_r_f___l_p_c_o_m_p___type.html#a6a23d4b4673e13ed402fdb4a24f552e1", null ]
+];

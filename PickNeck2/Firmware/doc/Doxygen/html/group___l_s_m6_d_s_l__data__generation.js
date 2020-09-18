@@ -1,0 +1,28 @@
+var group___l_s_m6_d_s_l__data__generation =
+[
+    [ "lsm6dsl_all_sources_get", "group___l_s_m6_d_s_l__data__generation.html#ga51d39bfec485a939cc8fac82f4019e63", null ],
+    [ "lsm6dsl_block_data_update_get", "group___l_s_m6_d_s_l__data__generation.html#ga2ca8f09c7ba43b6b884292e03ebff26f", null ],
+    [ "lsm6dsl_block_data_update_set", "group___l_s_m6_d_s_l__data__generation.html#gadcef13ae46fb0d96c4d42757a49ebf4f", null ],
+    [ "lsm6dsl_gy_data_rate_get", "group___l_s_m6_d_s_l__data__generation.html#ga332b0ae088f8eb61c80261cbd3ce4ee3", null ],
+    [ "lsm6dsl_gy_data_rate_set", "group___l_s_m6_d_s_l__data__generation.html#ga2a24c0b7ff2077e21f53d18b362409a5", null ],
+    [ "lsm6dsl_gy_flag_data_ready_get", "group___l_s_m6_d_s_l__data__generation.html#gabc6031c5d7ba57c293f84446dbcfb8f6", null ],
+    [ "lsm6dsl_gy_full_scale_get", "group___l_s_m6_d_s_l__data__generation.html#ga59adad2f79487ebc37399802b83078ad", null ],
+    [ "lsm6dsl_gy_full_scale_set", "group___l_s_m6_d_s_l__data__generation.html#ga7d9eca2bd5616fe5a711cb0fbbef87f4", null ],
+    [ "lsm6dsl_gy_power_mode_get", "group___l_s_m6_d_s_l__data__generation.html#gab4ca705157cd366de5881a8aa40f77be", null ],
+    [ "lsm6dsl_gy_power_mode_set", "group___l_s_m6_d_s_l__data__generation.html#ga13a0cf86f619698a54bd4490879df86e", null ],
+    [ "lsm6dsl_rounding_on_status_get", "group___l_s_m6_d_s_l__data__generation.html#gaf7e4ecb78ad14a9c31838e1dae1de22b", null ],
+    [ "lsm6dsl_rounding_on_status_set", "group___l_s_m6_d_s_l__data__generation.html#gacfd1b41056980a26032ab360bb083eb8", null ],
+    [ "lsm6dsl_status_reg_get", "group___l_s_m6_d_s_l__data__generation.html#ga2e027c8fbfc80fa1331cae00563627d3", null ],
+    [ "lsm6dsl_temp_flag_data_ready_get", "group___l_s_m6_d_s_l__data__generation.html#gacf8903ba43ad42f91af7c5846d78a721", null ],
+    [ "lsm6dsl_xl_data_rate_get", "group___l_s_m6_d_s_l__data__generation.html#ga785c05544d5a92b980f44fddd806fe72", null ],
+    [ "lsm6dsl_xl_data_rate_set", "group___l_s_m6_d_s_l__data__generation.html#gaee7c85ab48a8af8f59c9a2da081bc8bd", null ],
+    [ "lsm6dsl_xl_flag_data_ready_get", "group___l_s_m6_d_s_l__data__generation.html#gab0d925e0f3c6c81732eb551f2c2b7668", null ],
+    [ "lsm6dsl_xl_full_scale_get", "group___l_s_m6_d_s_l__data__generation.html#gac799b84896f4d5a191b893f734c0bf89", null ],
+    [ "lsm6dsl_xl_full_scale_set", "group___l_s_m6_d_s_l__data__generation.html#ga58c2bf792a0361e0c9f8b6c2d58476ea", null ],
+    [ "lsm6dsl_xl_offset_weight_get", "group___l_s_m6_d_s_l__data__generation.html#gab1068862d81d04cd39f663148395d65b", null ],
+    [ "lsm6dsl_xl_offset_weight_set", "group___l_s_m6_d_s_l__data__generation.html#gaa80c177850364adee1a157a4b0668e42", null ],
+    [ "lsm6dsl_xl_power_mode_get", "group___l_s_m6_d_s_l__data__generation.html#ga2102bd3c51d628f4f61ae50c7e8367a6", null ],
+    [ "lsm6dsl_xl_power_mode_set", "group___l_s_m6_d_s_l__data__generation.html#gaa4cf058bd5e4d191ca149986aef48c12", null ],
+    [ "lsm6dsl_xl_usr_offset_get", "group___l_s_m6_d_s_l__data__generation.html#gaad8ddbd682ffdc7b94e0d49fa03657a9", null ],
+    [ "lsm6dsl_xl_usr_offset_set", "group___l_s_m6_d_s_l__data__generation.html#ga80c8ad0c4ca6d2762ea715dcd341a594", null ]
+];

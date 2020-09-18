@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PickNeck_PCB.PcbDoc   02.09.2020  13:18:38
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PickNeck_PCB-RoundHoles.TXT
+ASCII SlotHoles File : PickNeck_PCB-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             92        PTH        247.89mm (9.76inch)
+T2      0.6mm (24mil)                                             Slot              4         PTH        43.28mm (1.70inch)
+T3      1mm (39mil)                                               Round             4         PTH        22.12mm (0.87inch)
+T4      2mm (79mil)                                               Round             3         PTH        53.00mm (2.09inch)
+T5      0.6mm (24mil)                                             Round             2         NPTH       1.80mm (0.07inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              105
+
+Total Processing Time (hh:mm:ss) : 00:00:00

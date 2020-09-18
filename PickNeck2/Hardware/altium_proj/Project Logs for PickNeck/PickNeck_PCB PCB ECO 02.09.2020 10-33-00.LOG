@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=LED_POW_G Pin=U2-39
+Removed Pin From Net: NetName=LED_POW_R Pin=U2-40
+Added Pin To Net: NetName=LED_POW_R Pin=U2-39
+Added Pin To Net: NetName=LED_POW_G Pin=U2-40
+Added Member To Class: ClassName=PickNeck_SCH Member=Component R7 1M
+Added Member To Class: ClassName=PickNeck_SCH Member=Component VT6 BSS816

@@ -1,0 +1,126 @@
+Для взаимодействие с сервисами нужно обязательно сделать сопряжение!!!
+
+
+Серверная часть переферийного устройства.
+
+
+Стандартные сервисы BLE:
+
+1) Generic Access.
+Имеет 4 характеристики, не расписываю пока.
+uuid - 1800
+
+2) Generic Attribute.
+Не имеет характеристик.
+uuid - 1801
+
+3) Battery Service
+uuid - 180F
+
+Имеет 1 характеристику
+
+3.1) Battery Level.
+uuid - 2A19
+properties - notifications, read.
+Возвращает уровень батареи 1 байт. Где 100 - 100 % заряда.
+
+4) Device Information
+uuid - 180A
+
+Имеет 7 характеристик:
+
+4.1) Manufacturer Name String
+Возвращает строку.
+uuid - 2A24
+properties - read.
+
+4.2) Model Number String
+Возвращает строку.
+uuid - 2A24
+properties - read.
+
+4.3) Serial Number String
+Возвращает строку.
+uuid - 2A25
+properties - read.
+
+4.4) Hardware Revision String
+Возвращает строку.
+uuid - 2A27
+properties - read.
+
+4.5) Firmware Revision String
+Возвращает строку.
+uuid - 2A26
+properties - read.
+
+4.6) Software Revision String
+Возвращает строку.
+uuid - 2A28
+properties - read.
+
+4.7) System ID
+Возвращает строку.
+uuid - 2A23
+properties - read.
+
+
+Кастомные сервисы BLE:
+
+1) Сервис для получения комманд.
+uuid - ADFB0001-A602-11EA-BB37-0242AC130002
+
+Имеет две характеристики:
+
+1.1) RX характеристика (куда надо слать строковые команды):
+uuid - ADFB0002-A602-11EA-BB37-0242AC130002
+properties - write, write no response
+
+1.2) TX характеристика (от куда будет приходить ответ):
+uuid - ADFB0003-A602-11EA-BB37-0242AC130002
+properties - notifications
+
+
+2) Сервис для получения показаний IMU:
+uuid - ADFB0004-A602-11EA-BB37-0242AC130002
+
+Имеет 4 характеристики
+
+2.1) Получение показаний акселерометра:
+От данной характеристики приходит 12 байт {x, y, z} с форматом float, small endian. По 4 байта на каждую переменную.
+uuid - ADFB0004-A602-11EA-BB37-0242AC130002
+properties - indications
+
+2.2) Получение показаний гироскопа:
+От данной характеристики приходит 12 байт {x, y, z} с форматом float, small endian. По 4 байта на каждую переменную.
+uuid - ADFB0004-A602-11EA-BB37-0242AC130002
+properties - indications
+
+2.3) Получение показаний угла отклонения:
+От данной характеристики приходит 12 байт {x, y, z} с форматом float, small endian. По 4 байта на каждую переменную.
+uuid - ADFB0004-A602-11EA-BB37-0242AC130002
+properties - indications
+
+2.4) Получение показаний шагомера:
+От данной характеристики приходит 4 байта с форматом uint32t, small endian.
+uuid - ADFB0004-A602-11EA-BB37-0242AC130002
+properties - indications 
+
+
+NOTE:
+	properties notifications - не требует подтверждения от центрального устройства.
+	properties indications - требует подтверждения от центрального устройства.
+END NOTE.
+
+
+Клиентская часть переферийного устройства.
+
+1) Current Time Service (CTS).
+При необходимости переферийное устройство будет запрашивать время от центрального устройства.
+Поэтому нужно на центральном устройстве реализовать CTS.
+
+Возможно будут:
+
+2) Alert Notification Service
+
+3) Immediate Alert
